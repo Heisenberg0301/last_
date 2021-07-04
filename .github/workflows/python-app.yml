@@ -9,6 +9,7 @@ on:
     paths:
     - 'factorial.py'
     - 'lint.py'
+    - 'class_test.py'
 jobs:
   build:
 
@@ -28,3 +29,6 @@ jobs:
     - name: Lint with pylint
       run: |
         python lint.py
+    - name: Presence of required class
+      run: |
+        python class_test.py
