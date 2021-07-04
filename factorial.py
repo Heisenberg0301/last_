@@ -8,6 +8,14 @@ import time
 
 final_list = []    
 
+class GFG:
+      
+    
+    def add(self, a, b):
+        return a + b
+    def sub(self, a, b):
+        return a - b
+
 def factorial(n):   
 
     time.sleep(.1)   
@@ -27,7 +35,7 @@ def sum_factorial():
 
     result=sum(final_list)    
 
-    print("Final SUM is {}".format(result)) 
+    #print("Final SUM is {}".format(result)) 
 
     return result
 
